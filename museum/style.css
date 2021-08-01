@@ -21,18 +21,19 @@ html {
 
 body {
     font-family: Roboto;
+    color: #FFFFFF;
 }
 
 .landpg-header-wrapper {
     background: #030303;
     max-width: 1920px;
     max-height: 200px;
+
 }
 /* header styles */
 
 .landpg-header-container {
     background: #030303;
-    color: #FFFFFF;
     max-width: 1440px;
     display: flex;
     justify-content: space-between;
@@ -80,31 +81,67 @@ body {
   }
 
 .landpg-header-nav A {
-    color: #FFFFFF;
     text-decoration: none;
+    color: #FFFFFF;
 }
 
 /* main styles */
 
-.section-title {
-    font-family: Forum;
+
+
+/* welcome styles */
+
+.landpg-welcome-container {
+    position: absolute;
+    max-width: 1920px;
+    height: 750px;
+    background: #030303;
+}
+
+.welcome-txt {
+    position: absolute;
+    left: 240px;
+    top: 114px;
+}
+
+.btn-discover {
+    position: absolute;
+    top: 315px;
+    width: 360px;
+    height: 75px;
+    border-radius: 10px;
     color: #FFFFFF;
+    background: #710707;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 25,78px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.welcome-img {
+    padding-left: 705px;
+}
+
+h2 {
+    font-family: Forum;
+    font-weight: 400;
     font-size: 80px;
     line-height: 90px;
     letter-spacing: 5px;
     text-transform: uppercase;
 }
 
-.landpg-main-container {
-    max-width: 1920px;
-    background: #030303;
-    margin: 0 auto;
+.section-subtitle {
+    position: absolute;
+    top: 206px;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: 2px;   
 }
-
-/* section styles */
 
 section{
     border: 1px solid red;
-    line-height: 800px;
 }
 
