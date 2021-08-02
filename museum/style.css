@@ -19,22 +19,18 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    font-family: Roboto;
-    color: #FFFFFF;
-}
-
 .landpg-header-wrapper {
     background: #030303;
     max-width: 1920px;
-    max-height: 200px;
-
+    color: #FFFFFF;
 }
+
 /* header styles */
 
 .landpg-header-container {
     background: #030303;
     max-width: 1440px;
+    max-height: 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -75,6 +71,7 @@ body {
     list-style: none;
     font-weight: 100;
     font-size: 22px;
+    letter-spacing: 2px;
     padding: 0 18px;
     line-height: 50px;
 
@@ -88,24 +85,50 @@ body {
 /* main styles */
 
 .main-wrapper {
+    font-family: Roboto;
+    color: #FFFFFF;
     display: flex;
+    max-width: 1440px;
     flex-direction: column;
-    align-items: flex-start;
 }
 
-/* welcome styles */
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+}
 
-.landpg-welcome-container {
-    position: absolute;
-    max-width: 1920px;
+section{
+    border: 1px solid red;
+    height: 750px;
+}
+
+h2 {
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+
+
+/* Welcome styles */
+
+.welcome-container {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 1920px;
     height: 750px;
     background: #030303;
+    background-image: url(assets/img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) calc(100% - 5px)
 }
 
 .welcome-txt {
-    position: absolute;
-    left: 240px;
-    top: 114px;
+    color: #FFFFFF;
 }
 
 .btn-discover {
@@ -124,19 +147,6 @@ body {
     margin-top: 76px;
 }
 
-.welcome-img {
-    padding-left: 705px;
-}
-
-h2 {
-    font-family: Forum;
-    font-weight: 400;
-    font-size: 80px;
-    line-height: 90px;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-}
-
 .section-subtitle {
     position: absolute;
     padding-top: 26px;
@@ -147,7 +157,50 @@ h2 {
     letter-spacing: 2px;   
 }
 
-section{
-    border: 1px solid red;
+/* Visiting styles */
+
+.visiting-container {
+    width: 1920px;
+    height: 750px;
+    background: #FFFFFF;
+
 }
 
+.visiting-txt {
+    color: #030303;
+}
+
+/* Explore styles */
+
+.explore-container {
+    width: 1920px;
+    height: 750px;
+    background: #030303;
+    color: #FFFFFF;
+}
+
+/* Video styles */
+
+.video-container {
+    width: 1920px;
+    height: 750px;
+    background: #FFFFFF;
+}
+
+
+/* Tickets styles */
+
+.tickets-container {
+    width: 1920px;
+    height: 750px;
+    background: #030303;
+    color: #FFFFFF;
+}
+
+/* Contacts styles */
+
+.contacts-container {
+    width: 1920px;
+    height: 750px;
+    background: #FFFFFF;
+}
