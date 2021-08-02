@@ -77,8 +77,11 @@ html {
 
   }
 
-.landpg-header-nav A {
+A {
     text-decoration: none;
+}
+
+.landpg-header-nav A {
     color: #FFFFFF;
 }
 
@@ -111,7 +114,19 @@ h2 {
     text-transform: uppercase;
 }
 
+.underline-title {
+    position: relative;
+  }
 
+.underline-title::after {
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background-color: #710707;
+  }
 
 /* Welcome styles */
 
@@ -161,14 +176,55 @@ h2 {
 
 .visiting-container {
     width: 1920px;
-    height: 750px;
+    height: 1300px;
     background: #FFFFFF;
-
 }
 
-.visiting-txt {
-    color: #030303;
+.visiting-card-container {
+    max-width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 78px 60px;
 }
+
+.visiting-card {
+    display: block;
+}
+
+.visiting-card-title {
+    position: relative;
+    font-family: Forum;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 35px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.visiting-card-title::after {
+    content: "";
+    position: absolute;
+    bottom: -9px;
+    left: 0;
+    width: 300px;
+    height: 2px;
+    background-color: #710707;
+  }
+
+.visiting-card-subtitle {
+    font-family: Roboto;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.visiting-card-text {
+    font-family: Roboto;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 21px;
+}
+
 
 /* Explore styles */
 
@@ -177,6 +233,22 @@ h2 {
     height: 750px;
     background: #030303;
     color: #FFFFFF;
+}
+
+.explore-pic-container {
+    display: flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    max-width: 1440px;
+}
+
+.explore-text {
+    top: 0;
+    width: 660px;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 38px;
 }
 
 /* Video styles */
