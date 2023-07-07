@@ -1,3 +1,3 @@
 # cheidru-JSFEPRESCHOOL
 Private repository for @cheidru
-https://GITHUB-cheidru.github.io/museum-rs/
+https://cheidru.github.io/museum-rs/
