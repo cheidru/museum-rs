@@ -1,2 +1,3 @@
 # cheidru-JSFEPRESCHOOL
-Private repository for @cheidru
+RSSchool JS course project incomplete
+https://cheidru.github.io/museum-rs/
